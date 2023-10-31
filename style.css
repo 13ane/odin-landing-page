@@ -1,0 +1,162 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif 
+}
+
+.himage {
+    background-color: grey;
+    height: 200px;
+    width: 400px;
+}
+
+button {
+    height: 28px;
+    width: 100px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    border-style: none;
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.headerhero {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 0px 150px 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.headerlogo {
+    font-size: 24px;
+}
+
+.headerlinks {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.herotext {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.heromain {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0px;
+    width: 450px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 150px;
+}
+
+.infotext {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.infoimages {
+    display: flex;
+    flex: 1 1 auto;
+    gap: 32px;
+    padding: 0px 150px;
+}
+
+.simage {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+}
+
+.descrip {
+    text-align: center;
+    width: 150px;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    padding: 100px 300px;
+}
+
+.quoteauthor {
+    text-align: end;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.signup {
+    background-color: #3882f6;
+    display: flex;
+    margin: 100px 150px;
+    padding: 50px 100px;
+    border-radius: 10px;
+    color: #e5e7eb;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bheading {
+    margin: 0px;
+    font-size: 24px;
+}
+
+.signuppara {
+    margin: 0px;
+}
+
+.buttontwo {
+    border: 2px solid #f9faf8;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    color: #f9faf8;
+    background-color: #1f2937;
+    padding: 50px;
+    font-size: 18px;
+}
